@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./photos/icon.png" >
+
+    <title>BirdWiki</title>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="./photos/leftarrow.png" alt="" class="menuarr" onclick="hideside()">
+        <br> 
+        <p>MENU</p>
+        <p>TEXT</p>
+        <p>TEXT</p>
+        <p>TEXT</p>
+        <p>TEXT</p>
+    </div>
+    <div class="overlay" onclick="hideside()"></div>
+    <div class="header">
+        <div class="container">
+            <a href="index.html" class="aa">
+                <img src="photos/logo.jpg" alt="" class="logo">
+                <div class="header_text">BirdWiki <span class="tn">TN</span></div>
+            </a>
+            <div onclick="showside()"><img src="./photos/menu.png" alt="" class="menuicon"></div>
+        </div>
+    </div>
+    
+    <div class="slide">
+        <div class="slideb">
+            <div class="tri" id="backtri" onclick="oneminus()"></div>
+            <div class="b" id="b1"></div>
+            <div class="b" id="b2"></div>
+            <div class="b" id="b3"></div>
+            <div class="tri" id="nexttri" onclick="oneplus()"></div>
+        </div>
+        <img src="file:///C:/Users/AHMED/Documents/SCHOOL/html/NewBirds/photos/image1.jpg" alt="" class="slideimg">
+
+    </div>
+    <div class="main">
+        <div class="intro">
+            <div class="intro_text">
+            <h3>Welcome to BirdWiki</h3>
+            <br><br>
+            Started over 25 years ago, this site was one of the first online communities and websites devoted exclusively to the care protection and understanding of birds. We designed this site to serve as an educational and community-focused resource for worldwide audiences and birding enthusiasts. Therefore, birders and others they can gain insights, exchange information, and share their experiences and expertise about one of nature’s most prolific and fascinating creatures.
+            <br><br>
+            Throughout the years, our editorial team and writing corps has been contributing original content while lending their knowledge to support this birding community as well. Together, they have created and divtained hundreds of pages of original content appearing on this website, including photos, articles, discussion boards, and general resources. This has been done to promote a better understanding of birds while encouraging others to join us in supporting the protection, safety, and proper care of the avian species.
+            <br><br>
+            Thousands of species of birds live on the planet and can be found on every continent. The animals inhabit a wide range of terrains, as many birds migrate from one habitat to the next, as the seasons change. They usually fly to climates that are more conducive to gathering food and breeding.
+            <br><br>
+            One common characteristic among all birds is their use of nests for protection from predators, or as a form of shelter for raising their young. Usually, birds construct nests in areas that are perceived as safe and secure, such as trees, small crannies in buildings, or among tall and thick grasses.
+            </div>
+            <div class="start"><hr><h3>GUIDE</h3></div>
+            <div class="container_sq">
+                <a href="Classification.html" class="a"><div class="item_sq" id="item_sq1" onmouseleave="reverse(sq1)" onmouseover="play(sq1)"><div class="goo"><img src="./photos/arrow.png" alt="" class="rleft"><p class="sq_text">Classifications</p></div></div></a>
+                <a href="" class="a"><div class="item_sq" id="item_sq2" onmouseleave="reverse(sq2)" onmouseover="play(sq2)"><div class="goo"><img src="./photos/arrow.png" alt="" class="rleft"><p class="sq_text">Education</p></div></div></a>
+                <a href="" class="a"><div class="item_sq" id="item_sq3" onmouseleave="reverse(sq3)" onmouseover="play(sq3)"><div class="goo"><img src="./photos/arrow.png" alt="" class="rleft"><p class="sq_text">Bird Care</p></div></div></a>
+            </div>
+        </div>
+    
+        <div class="br">
+        </div>
+        <div class="footer">
+            <p id="p1">BirdWiki</p>
+            <p id="p2">Copyright©2022 BirdWiki.org</p>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
